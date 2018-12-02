@@ -1,0 +1,253 @@
+p{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+/*top内部模块样式*/
+.top{
+	line-height: 30px;
+	font-size: 13px;
+	color: #868686;
+
+}
+.top .call{
+	float: left;
+	padding-left: 20px;
+	background: url(icon-call.png) no-repeat center left; 
+}
+.top .welcome{
+	float: right;
+}
+.top a{
+	color: #2da5e1;
+	padding-left: 10px;
+}
+
+/*header 模块内样式*/
+.header .logo{
+	width: 402px;
+	height: 74px;
+	padding: 9px 0;
+	display: inline-block;
+}
+.header .logo img{
+	width: 100%;
+	height: 100%;
+}
+.header .search{
+	width: 330px;
+	height: 38px;
+	
+	position:absolute;
+	right: 0px;
+	top: 29px;
+}
+
+/*nav 模块内样式*/
+.nav .menu-list{
+	line-height: 34px;
+	float: left;
+
+}
+.nav a{
+	display: inline-block;
+	width: 108px;
+	height: 34px;
+	color: #fff;
+	line-height: 34px;
+	text-align: center;
+}
+.nav .menu-list a:hover,.menu-other a:hover{
+    background: #3366cc;   
+}
+.nav .menu-other{
+	float: right;
+
+}
+
+/*banner top模块内样式*/
+.banner .banner-top{
+	width: 950px;
+	height: 52px;
+	padding: 0 25px;
+	line-height: 52px;
+}
+.banner .banner-top-left{
+	float: left;
+	display: inline-block;
+}
+
+.banner .banner-top-left .follow{
+	color: orange;
+	font-size: 12px;
+
+}
+.banner .banner-top-right{
+	float: right;
+	display: inline-block;
+}
+
+.banner .banner-top-right .list{
+	font-size: 12px;
+	color: blue;
+}
+.banner .banner-top-right .list-name{
+	font-size: 12px;
+}
+.banner .banner-top hr{
+	width: 950px;
+}
+
+/*banner content模块样式*/
+.banner .banner-content{
+	
+	position: relative;
+}
+.banner .banner-content .banner-content-left{
+	width: 200px;
+	height: 152px;
+	padding: 10px 25px;
+	background: url(hospital-1.jpg) no-repeat;
+	position: absolute;
+	top: 20px;
+	left: 25px;
+}
+.banner .banner-content .banner-content-right{
+	width: 250px;
+	height: 170px;
+	background: url(map-1.png) no-repeat;
+	position: absolute;
+	top: 20px;
+	right: 25px;
+}
+.banner .banner-content .banner-content-item{
+	width: 450px;
+	height: 180px;
+	position: absolute;
+	top: 28px;
+	left: 260px;
+	padding-left:20px;
+	background: url(icon-web.png) no-repeat top left;
+}
+.banner .banner-intro{
+	line-height: 20px;
+	height: 20px;
+	font-size: 13px;
+	color: #868686;	
+}
+
+/*content-list模块样式*/
+.content-title a{
+	display: inline-block;
+	width: 108px;
+	height: 30px;
+	line-height: 30px;
+	color: #60bff2;
+	text-align: center;
+
+}
+
+.content-title a:hover{
+	background: #60bff2;
+	color: #fff;
+}
+.content-title hr{
+	background-color: #60bff2;
+	color: #60bff2;
+	height: 2px;
+	border: none;
+	
+}
+
+/*content-item模块样式*/
+.content-item-left{
+	width: 712px;
+	height: 412px;
+	float: left;	
+}
+.content-item .menu-open{
+	width: 712px;
+	height: 48px;
+	line-height: 48px;
+	background: #f4f6fa;
+}
+.menu-name{
+	width: 148px;
+	height: 85px;
+	background: #f2fbff;
+	line-height: 20px;
+	font-size: 12px;
+	color: #868686;
+	text-align: center;
+}
+.menu-name-end{
+	width: 554px;
+	height: 85px;
+	float: right;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+.menu-name-end p{
+	width: 130px;
+	height: 30px;
+	line-height: 25px;
+	padding: 0;
+	
+	font-size: 14px;
+}
+.content-item-right{
+	width: 272px;
+	height: 290px;
+	float: right;
+
+}
+.time-top{
+	width: 272px;
+	height: 48px;
+	background: #f4f6fa;
+	line-height: 48px;
+	text-align: center;
+}
+.time-top p{
+	font-size: 12px;
+	color: #60bff2;
+}
+.time-content{
+	width: 272px;
+	height: 242px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.time-content-left{
+	width: 68px;
+	float: left;
+	font-size: 12px;
+}
+.time-content-right{
+	width: 186px;
+	float: right;
+	font-size: 12px;
+	color: #868686;
+}
+.time-item{
+	margin-bottom: 16px;
+	font-size: 12px;
+}
+.time-name{
+	font-size: 12px;
+	color: #868686;
+	margin-bottom: 16px;
+
+}
+
+
+/*footer模块样式*/
+.footer{
+	color: #868686;
+	font-size: 12px;
+	text-align: center;
+	line-height: 70px;
+}

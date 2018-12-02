@@ -1,0 +1,114 @@
+/*Section-schedule模块样式*/
+.Section-schedule{
+	width: 1000px;
+    margin: 0 auto;
+}
+
+.list-back{
+	font-size: 14px;
+	color: #60bff2;
+}
+
+/*Section-schedule-list模块样式*/
+.Section-schedule-list{
+	width: 1000px;
+	height: 390px;
+	border: 1px solid #dcdddd;
+	margin: 20px auto;
+
+}
+.schedule-list-left,.schedule-list-weeks,.schedule-list-right,
+.schedule-list-rule{
+	float: left;
+	height: 324px;
+	border: 1px solid #dcdddd;
+}
+.schedule-list-left{
+	width: 37px;
+
+}
+.schedule-list-weeks{
+	width: 658px;
+}
+.schedule-list-weeks-top{
+
+}
+.schedule-list-weeks-item{
+	width: 92px;
+	height:46px;
+	float: left;
+	border: 1px solid #dcdddd;
+	background-color: #f8fafc;
+	text-align: center;
+	font-size: 14px;
+	line-height: 23px;
+}
+.schedule-list-weeks-item span{
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+}
+
+.schedule-list-weeks-content-item{
+	width: 92px;
+	height: 90px;
+	border: 1px solid #dcdddd;
+	line-height: 93px;
+	text-align: center; 
+	float: left;
+}
+.schedule-list-weeks-content-third{
+	background-color: #e0eefd;
+	color: #4abced;
+}
+
+.schedule-list-right{
+	width: 37px;
+}
+.schedule-list-rule{
+	padding-left: 10px;
+	width: 250px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.schedule-list-rule-top{
+	height: 46px;
+	margin-top: 10px;
+	line-height: 36px;
+}
+
+.day{
+	background-color: #f2f8ff;
+	width: 35px;
+	height: 279px;
+	position: relative;
+	top: -6px;
+}
+
+.day-3{
+	width: 37px;
+	height: 93px;
+	text-align: center;
+	line-height: 93px;
+}
+
+.Section-schedule-list-bottom{
+	width: 1000px;
+	height: 66px;
+	line-height: 66px;
+	text-align: center;
+	color: #868686;
+	margin: 0 auto;
+}
+
+.schedule-list-rule-item{
+	font-size: 12px;
+
+
+}
+.schedule-list-rule-name{
+	font-size: 12px;
+	color: #868686;
+
+}
